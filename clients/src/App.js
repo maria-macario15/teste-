@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Feed from './views/components/Feed';
 import Navbar from './views/components/Navbar'
 import Login from "./views/auth/login"
+import Chat from './views/chat/chat';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Feed/>} />
+        <Route path='/' element={<Chat/>} />
       </Routes>
     </BrowserRouter>
   );
